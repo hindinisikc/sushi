@@ -1,15 +1,16 @@
 .popular-foods {
-    padding: 64px;
-    display: flex;
-    flex-direction: column;
-    
-    background-color: var(--primary-color);
-    background-image: url("../../assets/popular_bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  padding: 64px;
 
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--primary-color);
+  background-image: url("../../assets/popular_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  overflow: hidden;
 }
 
 .popular-foods__title {
@@ -68,7 +69,7 @@
 }
 
 .popular-foods__catalogue {
-    margin: 64px;
+    margin-top: 64px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
